@@ -88,6 +88,7 @@ void setup()
 
       // Make a HTTP request and add HTTP headers
       String boundary = "CustomizBoundarye----";
+      //change with your content type
       String contentType = "audio/x-wav";
       String portString = String(post_port);
       String hostString = String(post_host);
